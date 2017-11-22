@@ -29,6 +29,8 @@ public class TodoFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Creates new Todo object
         mTodo = new Todo();
         //TODO: refactor
         mTodo.setTitle("Text title");
